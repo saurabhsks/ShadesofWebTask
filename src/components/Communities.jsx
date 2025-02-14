@@ -50,10 +50,8 @@ function Communities() {
 
   return (
     <div className="communities-container">
-      {/* Section Title */}
       <h2 className="communities-title">COMMUNITIES WE MANAGE</h2>
       
-      {/* Cards */}
       <div className="cards-wrapper">
         {communitiesData.map((community, index) => (
           <Card

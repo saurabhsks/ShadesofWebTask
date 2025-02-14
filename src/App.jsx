@@ -1,10 +1,14 @@
-import react from 'react'
+import React from 'react';
+import Communities from './components/Communities';
+import './App.css';
 
 
 function App() {
   return (
     <>
-      <h1>Hii Saurabh your setup</h1>
+      <div className="App">
+      <Communities />
+    </div>
     </>
   )
 }
